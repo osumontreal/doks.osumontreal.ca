@@ -1,9 +1,8 @@
 ---
 title: "Introduction"
-description: "Doks is a Hugo theme helping you build modern documentation websites that are secure, fast, and SEO-ready — by default."
-lead: "Doks is a Hugo theme helping you build modern documentation websites that are secure, fast, and SEO-ready — by default."
+# description: "Doks is a Hugo theme helping you build modern documentation websites that are secure, fast, and SEO-ready — by default."
+# lead: "Doks is a Hugo theme helping you build modern documentation websites that are secure, fast, and SEO-ready — by default."
 date: 2020-10-06T08:48:57+00:00
-lastmod: 2020-10-06T08:48:57+00:00
 draft: false
 images: []
 menu:
@@ -13,46 +12,81 @@ weight: 100
 toc: true
 ---
 
-## Get started
+## Qu'est-ce qu'Open Science UMontréal ?
 
-There are two main ways to get started with Doks:
+Open Science UMontréal (OSUM) est une jeune initiative étudiante née à
+l'Université de Montréal qui oeuvre à favoriser l'intégration de méthodes de
+travail collaboratives et des outils en science ouverte dans le quotidien des
+membres de la communauté de recherche UdeMienne et d'ailleurs.
 
-### Tutorial
+OSUM est une communauté vivante qui regroupe des individus provenant de divers
+domaines de recherche, notamment les sciences sociales et biomédicales, le droit
+et l'informatique, et qui ont la science ouverte à coeur.
 
-{{< alert icon="👉" text="The Tutorial is intended for novice to intermediate users." />}}
+### **Vision**
 
-Step-by-step instructions on how to start a new Doks project. [Tutorial →](https://getdoks.org/tutorial/introduction/)
+- Nous croyons en un monde dans lequel tous les membres de la société ont accès
+  librement aux processus création, aux contenus et retombées de la recherche
+  scientifique.
 
-### Quick Start
+- Nous développons une communauté d’individus œuvrant afin d’atteindre ce but,
+  défendant les principes de la science ouverte tels que l'inclusivité, la
+  collaboration et la transparence.
 
-{{< alert icon="👉" text="The Quick Start is intended for intermediate to advanced users." />}}
+- Nous croyons fermement que la science ouverte nous permettra à long terme de
+  résoudre efficacement les problèmes auxquels la science est confrontée
+  actuellement.
 
-One page summary of how to start a new Doks project. [Quick Start →]({{< relref "quick-start" >}})
+### **Mission**
 
-## Go further
+Open Science UMontréal a pour mission de promouvoir une science au service du
+bien commun, par la **sensibilisation**, la **mise à disposition de ressources**
+et la **mobilisation de la communauté**.
 
-Recipes, Reference Guides, Extensions, and Showcase.
+#### **1. Sensibilisation**
 
-### Recipes
+L'objectif d'OSUM est de sensibiliser la communauté aux avantages de
+l'utilisation de pratiques ouvertes et reproductibles, qui rendent la science
+plus accessible, transparente et crédible.
 
-Get instructions on how to accomplish common tasks with Doks. [Recipes →](https://getdoks.org/docs/recipes/project-configuration/)
+- Sensibiliser la communauté académique
+- Sensibiliser les décideurs et les décideuses politiques, par le biais
+  d'ateliers, de conférences, de blogues et bien d’autres, dans l’optique de
+  provoquer efficacement l'adoption à grande échelle des pratiques de science
+  ouverte à l’UdeM
 
-### Reference Guides
+#### **2. Mise à disposition de ressources**
 
-Learn how to customize Doks to fully make it your own. [Reference Guides →](https://getdoks.org/docs/reference-guides/security/)
+Nous visons à faciliter l'acquisition de connaissances et de compétences liées à
+la science ouverte grâce à des ressources accessibles à tous.
 
-### Extensions
+- Différentes ressources : des tutoriels, des guides d’application, des
+  formations et des séances pour échanger sur les outils et les pratiques de la
+  science ouverte
+- Offrir une plateforme d’aide et de collaboration pour favoriser un meilleur
+  encadrement dans l’adoption de pratiques de science ouverte
+- Fournir du contenu accessible à la communauté francophone
 
-Get instructions on how to add even more to Doks. [Extensions →](https://getdoks.org/docs/extensions/breadcrumb-navigation/)
+#### **3. Mobilisation de la communauté**
 
-### Showcase
+Nous voulons établir une communauté inclusive et collaborative travaillant à la
+transition vers une science plus ouverte, où tous sont les bienvenus pour
+apprendre, partager et discuter des valeurs, des principes et des pratiques de
+la science ouverte.
 
-See what others have build with Doks. [Showcase →](https://getdoks.org/showcase/electric-blocks/)
+- Offrir des occasions de se rencontrer et encourager l'échange d'idées dans et
+  entre les domaines, car nous pouvons tous apprendre les uns des autres
 
-## Contributing
+---
 
-Find out how to contribute to Doks. [Contributing →](https://getdoks.org/docs/contributing/how-to-contribute/)
+Toute personne intéressée, qu'elle soit affiliée ou non à
+l'UdeM, peut participer aux activités et joindre notre initiative.
 
-## Help
+## **Pour nous joindre**
 
-Get help on Doks. [Help →]({{< relref "how-to-update" >}})
+Pour toute question, pour joindre un membre de notre équipe ou pour vous
+impliquez au sein d’Open Science Umontréal :
+
+Contactez-nous via courriel [info@openscience.ca](mailto:info@openscience.ca) !
+Il nous fera plaisir de vous répondre :)
+
