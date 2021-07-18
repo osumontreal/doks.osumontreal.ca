@@ -1,29 +1,29 @@
 # Meta Data for SEO
 
 ## Homepage
-title = "Doks"
+title = "OSUMontreal"
 titleSeparator = "-"
-titleAddition = "Modern Documentation Theme"
-description = "Doks is a Hugo theme helping you build modern documentation websites that are secure, fast, and SEO-ready — by default."
+titleAddition = "Documentation pour la communauté"
+description = "Cette documentation est offerte par la communauté d'Open Science Umontréal pour la communauté."
 
 ## Open Graph
 images = ["doks.png"]
 ogLocale = "en_US"
-domainTLD = "doks.netlify.app"
-titleHome = "Doks Theme"
+domainTLD = "doks.osumontreal.ca"
+titleHome = "Doks OSUMontreal"
 
 ## Twitter Cards
-twitterSite = "@getdoks"
-twitterCreator = "@henkverlinde"
+twitterSite = "@OSUMontreal"
+twitterCreator = "@OSUMontreal"
 
 ## JSON-LD
 # schemaType = "Person"
 schemaType = "Organization"
-schemaName = "Doks"
-schemaAuthor = "Henk Verlinde"
-schemaAuthorTwitter = "https://twitter.com/henkverlinde"
-schemaAuthorLinkedIn = "https://www.linkedin.com/in/henkverlinde/"
-schemaAuthorGitHub = "https://github.com/h-enk"
+schemaName = "OSUMontreal"
+schemaAuthor = "OSUMontreal"
+schemaAuthorTwitter = "https://twitter.com/OSUMontreal"
+# schemaAuthorLinkedIn = "https://www.linkedin.com/in/henkverlinde/"
+schemaAuthorGitHub = "https://github.com/OSUMontreal"
 schemaLocale = "en-US"
 schemaLogo = "logo-doks.png"
 schemaLogoWidth = 512
@@ -31,9 +31,9 @@ schemaLogoHeight = 512
 schemaImage = "doks.png"
 schemaImageWidth = 1280
 schemaImageHeight = 640
-schemaTwitter = "https://twitter.com/getdoks"
+schemaTwitter = "https://twitter.com/OSUMontreal"
 schemaLinkedIn = ""
-schemaGitHub = "https://github.com/h-enk/doks"
+schemaGitHub = "https://github.com/OSUMontreal"
 schemaSection = "blog"
 
 ## Sitelinks Search Box
@@ -43,23 +43,23 @@ siteLinksSearchBox = false
 themeColor = "#fff"
 
 # Images
-quality = 85
+quality = 100
 bgColor = "#fff"
 landscapePhotoWidths = [900, 800, 700, 600, 500]
 portraitPhotoWidths = [800, 700, 600, 500]
 lqipWidth = "20x"
 
 # Footer
-footer = "Powered by <a href=\"https://www.netlify.com/\">Netlify</a>, <a href=\"https://gohugo.io/\">Hugo</a>, and <a href=\"https://getdoks.org/\">Doks</a>"
-copyRight = "Copyright (c) 2020-2021 Henk Verlinde"
+footer = "Powered by <a href=\"https://gohugo.io/\">Hugo</a> and a customized version of the <a href=\"https://getdoks.org/\">Doks</a> theme."
+copyRight = "Copyright (c) OSUMontreal"
 
 # Alert
-alert = false
-alertText = "Like Doks? <a class=\"alert-link\" href=\"https://github.com/h-enk/doks/stargazers\">Star on GitHub</a>. Thanks!</a>"
+alert = true
+alertText = "Documentation en construction, pour nous aider, <span class=\"alert-link\">[C'est par ici!](https://github.com/osumontreal/doks.osumontreal.ca)</span>. Merci!"
 
 # Edit Page
-docsRepo = "https://github.com/h-enk/doks"
-editPage = false
+docsRepo = "https://github.com/osumontreal/doks.osumontreal.ca"
+editPage = true
 
 [options]
   lazySizes = true
@@ -68,7 +68,7 @@ editPage = false
   flexSearch = true
   darkMode = true
   bootStrapJs = true
-  breadCrumb = false
+  breadCrumb = true
   highLight = true
-  kaTex = false
-  collapsibleSidebar = false
+  kaTex = true
+  collapsibleSidebar = true

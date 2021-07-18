@@ -1,9 +1,9 @@
 baseurl = "https://doks.osumontreal.ca/"
 canonifyURLs = false
-disableAliases = true
-disableHugoGeneratorInject = true
+disableAliases = false
+disableHugoGeneratorInject = false
 enableEmoji = true
-enableGitInfo = false
+enableGitInfo = true
 enableRobotsTXT = true
 languageCode = "en-US"
 paginate = 7
@@ -71,11 +71,32 @@ rel  = "sitemap"
     source = "static"
     target = "static"
   [[module.mounts]]
-    source = "node_modules/flexsearch"
+    source = "themes/doks/node_modules/flexsearch"
     target = "assets/js/vendor/flexsearch"
   [[module.mounts]]
-    source = "node_modules/katex"
+    source = "themes/doks/node_modules/katex"
     target = "assets/js/vendor/katex"
+    [[module.mounts]]
+    source = "themes/doks/node_modules/katex/dist"
+    target = "assets/scss/katex"
   [[module.mounts]]
-    source = "node_modules/mermaid"
+    source = "themes/doks/node_modules/katex/dist/fonts"
+    target = "static/fonts"
+  [[module.mounts]]
+    source = "themes/doks/node_modules/mermaid"
     target = "assets/js/vendor/mermaid"
+  [[module.mounts]]
+    source = "themes/doks/node_modules/bootstrap"
+    target = "assets/bootstrap"
+  [[module.mounts]]
+    source = "themes/doks/node_modules/lazysizes"
+    target = "assets/js/vendor/lazysizes"
+  [[module.mounts]]
+    source = "themes/doks/node_modules/instant.page"
+    target = "assets/js/vendor/instant.page"
+  [[module.mounts]]
+    source = "themes/doks/node_modules/highlight.js"
+    target = "assets/js/vendor/highlight.js"
+  [[module.mounts]]
+    source = "themes/doks/node_modules/clipboard/dist"
+    target = "assets/js/vendor/clipboard"
